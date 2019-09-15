@@ -1,0 +1,70 @@
+{
+  "title": "ProjectDoc",
+  "author": "jiyiren",
+  "description": "ProjectDoc",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "本文托管": "https://github.com/jiyiren/ProjectDoc"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "splitter@^0.0.8",
+    "-lunr",
+    "-search",
+    "search-plus@^0.0.11",
+    "tbfed-pagefooter@^0.0.1",
+    "anchor-navigation-ex@0.1.8",
+    "-highlight",
+    "prism@^2.1.0",
+    "prism-themes@^0.0.2",
+    "github-buttons",
+    "github"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy csyiji@gmail.com 2019",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-a11y-dark.css"
+      ]
+    },
+    "github-buttons": {
+      "repo": "jiyiren/ProjectDoc",
+      "types": [
+          "star"
+      ],
+      "size": "small"
+    },
+    "github": {
+      "url": "https://github.com/jiyiren"
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 10,
+      "left": 10,
+      "top": 10,
+      "bottom": 10
+    }
+  }
+}
